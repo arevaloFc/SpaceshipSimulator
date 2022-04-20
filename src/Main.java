@@ -31,6 +31,7 @@ public class Main {
         String matriculaGalactica = scan.nextLine();
         System.out.print("\t" + "Introduce la aceleracion de tu nave espacial: ");
         int aceleracion = scan.nextInt();
+        scan.nextLine();
         naveEspacial = new SpaceShip(nombre,matriculaGalactica,aceleracion);
         System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
     }
