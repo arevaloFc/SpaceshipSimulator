@@ -88,4 +88,12 @@ public class SpaceShip {
     public void setDireccionY(int direccionY) {
         this.direccionY = direccionY;
     }
+
+    public String SpeedUp(int aceleracion2){
+        int calculoVelocidad = aceleracion += aceleracion2;
+        int resultadoVelocidad = calculoVelocidad += velocidadX;
+        int calculoPosicion = coordenadaX =+ resultadoVelocidad;
+        return "\t\tLa velocida de tu nave espacial es de: " + resultadoVelocidad + " km/h" +
+                " y la posicion X es de " + calculoPosicion + " Cuadros a la derecha";
+    }
 }

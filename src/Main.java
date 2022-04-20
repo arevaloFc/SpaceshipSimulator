@@ -36,6 +36,15 @@ public class Main {
         System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
     }
 
+    /*------------------------------------Acelerar tu nave espacial------------------------------------*/
+    public static void AcelerarNaveEspacial() {
+        System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial ");
+        int aceleracion = scan.nextInt();
+        scan.nextLine();
+        System.out.println(naveEspacial.SpeedUp(aceleracion));
+        System.out.println("\n" + "- - - - Opcion 3 Finalizada - - - -");
+    }
+
     public static void main(String[] args) {
         String opcionUsuario = "";
 
@@ -50,7 +59,7 @@ public class Main {
                     System.out.println("Hola2");
                     break;
                 case "3":
-                    System.out.println("Hola3");
+                    AcelerarNaveEspacial();
                     break;
                 case "4":
                     System.out.println("Hola4");
