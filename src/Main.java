@@ -36,7 +36,12 @@ public class Main {
         System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
     }
 
-    /*------------------------------------Acelerar tu nave espacial------------------------------------*/
+    /*------------------------------------Mostrar nave espacial------------------------------------*/
+    public static void mostrarNaveEspacial() {
+        System.out.println(naveEspacial);
+    }
+
+    /*------------------------------------Acelerar nave espacial------------------------------------*/
     public static void AcelerarNaveEspacial() {
         System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial ");
         int aceleracion = scan.nextInt();
@@ -56,7 +61,7 @@ public class Main {
                     crearNaveEspacial();
                     break;
                 case "2":
-                    System.out.println("Hola2");
+                    mostrarNaveEspacial();
                     break;
                 case "3":
                     AcelerarNaveEspacial();
