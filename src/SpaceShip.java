@@ -96,4 +96,19 @@ public class SpaceShip {
         return "\t\tLa velocida de tu nave espacial es de: " + resultadoVelocidad + " km/h" +
                 " y la posicion X es de " + calculoPosicion + " Cuadros a la derecha";
     }
+
+    @Override
+    public String toString() {
+        return "SpaceShip{" +
+                "nombre='" + nombre + '\'' +
+                ", matriculaGalactica='" + matriculaGalactica + '\'' +
+                ", aceleracion=" + aceleracion +
+                ", velocidadX=" + velocidadX +
+                ", velocidadY=" + velocidadY +
+                ", coordenadaX=" + coordenadaX +
+                ", coordenadaY=" + coordenadaY +
+                ", direccionX=" + direccionX +
+                ", direccionY=" + direccionY +
+                '}';
+    }
 }
