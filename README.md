@@ -3,7 +3,7 @@
 ### Una aventura espacial
 #### El objetivo del proyecto SpaceshipSimulator es que el usuario por medio de un menú pueda crear una nave espacial,ver su nave espacial, acelerar, frenar, parar, gestionar su bodega y salir de ella.
 [![](./imagenes/nave.jpg )](https://wallhere.com/es/wallpaper/1958737)
-1. Cuando el usuario escoja opción de crear una nave espacial el podrá personalizar su nave espacial colocando los
+1- Cuando el usuario escoja opción de crear una nave espacial el podrá personalizar su nave espacial colocando los
    siguientes atributos:
    * **Nombre**
    * **Matricula Galáctica**
