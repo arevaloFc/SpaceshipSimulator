@@ -40,6 +40,7 @@ public class Main {
     public static void AcelerarNaveEspacial() {
         System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial ");
         int aceleracion = scan.nextInt();
+        scan.nextLine();
         System.out.println(naveEspacial.SpeedUp(aceleracion));
         System.out.println("\n" + "- - - - Opcion 3 Finalizada - - - -");
     }
