@@ -38,9 +38,10 @@ public class Main {
 
     /*------------------------------------Acelerar tu nave espacial------------------------------------*/
     public static void AcelerarNaveEspacial() {
-        System.out.println("\tIntroduce el numero de aceleracion de tu nave espacial ");
-        int aceleracion2 = scan.nextInt();
-        System.out.println(naveEspacial.SpeedUp(aceleracion2));
+        System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial ");
+        int aceleracion = scan.nextInt();
+        System.out.println(naveEspacial.SpeedUp(aceleracion));
+        System.out.println("\n" + "- - - - Opcion 3 Finalizada - - - -");
     }
 
     public static void main(String[] args) {
