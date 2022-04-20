@@ -30,8 +30,8 @@ public class Main {
         System.out.print("\t" + "Introduce la matricula galactica de tu nave espacial: ");
         String matriculaGalactica = scan.nextLine();
         System.out.print("\t" + "Introduce la aceleracion de tu nave espacial: ");
-        int aceleracioc = scan.nextInt();
-        naveEspacial = new SpaceShip(nombre,matriculaGalactica,aceleracioc);
+        int aceleracion = scan.nextInt();
+        naveEspacial = new SpaceShip(nombre,matriculaGalactica,aceleracion);
         System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
     }
 
