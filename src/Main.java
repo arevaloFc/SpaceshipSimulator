@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static Scanner scan = new Scanner(System.in);
+    public static SpaceShip naveEspacial;
 
     /*------------------------------------------------Menu--------------------------------------------*/
     public static String mostrarMenu() {
@@ -21,6 +22,20 @@ public class Main {
         return opcionUsuario;
     }
 
+    /*-------------------------------------Crear una nave espacial------------------------------------*/
+    public static void crearNaveEspacial() {
+        System.out.println("INTRODUCE LOS DATOS DE TU NUEVA NAVE ESPACIAL" + "\n");
+        System.out.print("\t" + "Introduce el nombre de tu nave espacial: ");
+        String nombre = scan.nextLine();
+        System.out.print("\t" + "Introduce la matricula galactica de tu nave espacial: ");
+        String matriculaGalactica = scan.nextLine();
+        System.out.print("\t" + "Introduce la aceleracion de tu nave espacial: ");
+        int aceleracion = scan.nextInt();
+        scan.nextLine();
+        naveEspacial = new SpaceShip(nombre,matriculaGalactica,aceleracion);
+        System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
+    }
+
     public static void main(String[] args) {
         String opcionUsuario = "";
 
@@ -29,7 +44,7 @@ public class Main {
 
             switch (opcionUsuario) {
                 case "1":
-                    System.out.println("Hola1");
+                    crearNaveEspacial();
                     break;
                 case "2":
                     System.out.println("Hola2");
