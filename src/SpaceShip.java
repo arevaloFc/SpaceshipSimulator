@@ -9,6 +9,8 @@ public class SpaceShip {
     private int direccionX;
     private int direccionY;
 
+    public static int resultadoVelocidad;
+
     public SpaceShip(String nombre, String matriculaGalactica, int aceleracion) {
         this.nombre = nombre;
         this.matriculaGalactica = matriculaGalactica;
@@ -91,7 +93,7 @@ public class SpaceShip {
 
     public String SpeedUp(int aceleracion2){
         int calculoVelocidad = aceleracion += aceleracion2;
-        int resultadoVelocidad = calculoVelocidad += velocidadX;
+        resultadoVelocidad = calculoVelocidad += velocidadX;
         int calculoPosicion = coordenadaX =+ resultadoVelocidad;
         return "\t\tLa velocida de tu nave espacial es de: " + resultadoVelocidad + " km/h" +
                 " y la posicion X es de " + calculoPosicion + " Cuadros a la derecha";
@@ -99,16 +101,20 @@ public class SpaceShip {
 
     @Override
     public String toString() {
-        return "SpaceShip{" +
-                "nombre='" + nombre + '\'' +
-                ", matriculaGalactica='" + matriculaGalactica + '\'' +
-                ", aceleracion=" + aceleracion +
-                ", velocidadX=" + velocidadX +
-                ", velocidadY=" + velocidadY +
-                ", coordenadaX=" + coordenadaX +
-                ", coordenadaY=" + coordenadaY +
-                ", direccionX=" + direccionX +
-                ", direccionY=" + direccionY +
+        return  " __" + "\n" +
+                " | | " + "\n" +
+                "=[_|H)--._____" + "\n" +
+                "=[+--,-------'" + "\n" +
+                " [|_/'''  " + "\n" +
+                " Nombre de tu nave es: " + nombre + "\n" +
+                " Matricula Galactica de tu nave es: " + matriculaGalactica + "\n" +
+                " Aceleracion de tu nave es: " + aceleracion + "\n" +
+                " Velocidad X de tu nave es: " + resultadoVelocidad + "\n" +
+                " Velocidad Y de tu nave es: " + velocidadY + "\n" +
+                " Coordenada X de tu nave es: " + coordenadaX + "\n" +
+                " Coordenada Y de tu nave es: " + coordenadaY + "\n" +
+                " Direccion X de tu nave es: " + direccionX + "\n" +
+                " Direccion Y de tu nave es: " + direccionY + "\n" +
                 '}';
     }
 }
