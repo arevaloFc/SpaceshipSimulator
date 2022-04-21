@@ -104,6 +104,10 @@ public class SpaceShip {
         return resta;
     }
 
+    public int emergencyStop(){
+        return velocidadX = 0;
+    }
+
     @Override
     public String toString() {
         return  "_____________________________________________________________________" + "\n" +

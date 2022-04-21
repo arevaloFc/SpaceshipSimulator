@@ -51,12 +51,19 @@ public class Main {
         System.out.println("\n" + "- - - - Opcion 3 Finalizada - - - -");
     }
 
+    /*------------------------------------Frenar nave espacial------------------------------------*/
     public static void FrenarNaveEspacial() {
         System.out.print("\tIntroduce el numero para frenar tu nave espacial: ");
         int aceleracionFrenar = scan.nextInt();
         scan.nextLine();
         System.out.println("\tTu nave quedo en la posicion: " + naveEspacial.brake(aceleracionFrenar) );
         System.out.println("\n" + "- - - - Opcion 4 Finalizada - - - -");
+    }
+
+    /*--------------------------------------Parar tu nave espacial"------------------------------------*/
+    public static void PararNaveEspacial(){
+        System.out.println("\tTu nave espacial a parado de golpe su velocidad nueva es: " + naveEspacial.emergencyStop());
+        System.out.println("\n" + "- - - - Opcion 5 Finalizada - - - -");
     }
 
     public static void main(String[] args) {
@@ -79,7 +86,7 @@ public class Main {
                     FrenarNaveEspacial();
                     break;
                 case "5":
-                    System.out.println("Hola5");
+                    PararNaveEspacial();
                     break;
                 case "6":
                     System.out.println("Hola6");
