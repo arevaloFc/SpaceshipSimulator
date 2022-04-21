@@ -53,6 +53,7 @@ public class Main {
     public static void FrenarNaveEspacial() {
         System.out.println("Introduce el numero de  de tu nave espacial");
         int aceleracionFrenar = scan.nextInt();
+        scan.nextLine();
         System.out.println("Tu nave quedo en la posicion: " + naveEspacial.brake(aceleracionFrenar) );
     }
 
