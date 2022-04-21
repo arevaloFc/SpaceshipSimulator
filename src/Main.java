@@ -68,7 +68,7 @@ public class Main {
 
     /*---------------------Agregar containers a la bodega de la nave espacial--------------------------*/
     public static void BodegaNaveEspacialAgregar(){
-        System.out.println("Cuantos containers quieres meter a la bodega de tu nave espacial");
+        System.out.print("\tCuantos containers quieres meter a la bodega de tu nave espacial: ");
         int meterContainer = scan.nextInt();
         scan.nextLine();
         System.out.println(naveEspacial.load(meterContainer));

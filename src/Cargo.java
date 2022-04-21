@@ -19,7 +19,7 @@ public class Cargo extends SpaceShip{
         if (cantidadEspacios < 0) {
             return "No te queda mas Espacios en tu bodega";
         }
-        return "Te quedan : " + cantidadEspacios + " Espacios en tu bodega";
+        return "\t\tTe quedan : " + cantidadEspacios + " Espacios en tu bodega";
     }
 
 }
