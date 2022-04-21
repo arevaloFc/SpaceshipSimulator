@@ -99,8 +99,8 @@ public class SpaceShip {
                 " y la posicion X es de " + calculoPosicion + " Cuadros a la derecha";
     }
 
-    public int brake(int aceleracion3){
-        int resta = resultadoVelocidad -= aceleracion3;
+    public int brake(int aceleracionBrake){
+        int resta = resultadoVelocidad -= aceleracionBrake;
         return resta;
     }
 
