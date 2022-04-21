@@ -14,4 +14,12 @@ public class Cargo extends SpaceShip{
         this.cargaMaximaBodega = cargaMaximaBodega;
     }
 
+    public String load(int numeroMaximaCarga){
+        int cantidadEspacios = cargaMaximaBodega -= numeroMaximaCarga;
+        if (cantidadEspacios < 0) {
+            return "No te queda mas Espacios en tu bodega";
+        }
+        return "\t\tTe quedan : " + cantidadEspacios + " Espacios en tu bodega";
+    }
+
 }
