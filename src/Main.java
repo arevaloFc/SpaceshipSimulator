@@ -62,7 +62,8 @@ public class Main {
 
     /*--------------------------------------Parar tu nave espacial"------------------------------------*/
     public static void PararNaveEspacial(){
-        System.out.println("Tu nave espacial a parado de golpe su velocidad nueva es: " + naveEspacial.emergencyStop());
+        System.out.println("\tTu nave espacial a parado de golpe su velocidad nueva es: " + naveEspacial.emergencyStop());
+        System.out.println("\n" + "- - - - Opcion 5 Finalizada - - - -");
     }
 
     public static void main(String[] args) {
