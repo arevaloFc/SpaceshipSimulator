@@ -74,6 +74,13 @@ public class Main {
         System.out.println(naveEspacial.load(meterContainer));
     }
 
+    /*---------------------Quitar containers a la bodega de la nave espacial--------------------------*/
+    public static void BodegaNaveEspacial(){
+        System.out.println("Cuantos containers quieres sacar de la bodega de tu nave espacial:");
+        int meterContainer = scan.nextInt();
+        System.out.println(naveEspacial.unload(meterContainer));
+    }
+
     public static void main(String[] args) {
         String opcionUsuario = "";
 
@@ -100,7 +107,7 @@ public class Main {
                     BodegaNaveEspacialAgregar();
                     break;
                 case "7":
-                    System.out.println("Hola7");
+                    BodegaNaveEspacial();
                     break;
                 case "0":
                     System.out.println("Estas Muerto :D");
