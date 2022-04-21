@@ -66,6 +66,13 @@ public class Main {
         System.out.println("\n" + "- - - - Opcion 5 Finalizada - - - -");
     }
 
+    /*---------------------Agregar containers a la bodega de la nave espacial--------------------------*/
+    public static void BodegaNaveEspacial(){
+        System.out.println("Cuantos containers quieres meter a la bodega de tu nave espacial");
+        int meterContainer = scan.nextInt();
+        System.out.println(naveEspacial.load(meterContainer));
+    }
+
     public static void main(String[] args) {
         String opcionUsuario = "";
 
@@ -89,7 +96,7 @@ public class Main {
                     PararNaveEspacial();
                     break;
                 case "6":
-                    System.out.println("Hola6");
+                    BodegaNaveEspacial();
                     break;
                 case "7":
                     System.out.println("Hola7");
