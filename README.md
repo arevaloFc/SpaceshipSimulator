@@ -10,31 +10,31 @@
    * **Aceleración**
 
 ![](./imagenes/Linea.jpg)
- 2. Cuando el usuario coloque su aceleración se podrá calcular la velocidad y la posicion actual de la nave.
+2. Cuando el usuario coloque su aceleración se podrá calcular la velocidad y la posicion actual de la nave.
 
 ![](./imagenes/Linea.jpg)
- 3. El usuario también tendrá una opción donde muestra su nave espacial por medio de AsciiArt
+3. El usuario también tendrá una opción donde muestra su nave espacial por medio de AsciiArt
    * [Ejemplos](https://www.asciiart.eu/space/spaceships)
 
 ![](./imagenes/Linea.jpg)
- 4. El usuario podrá hacer que la nave frene aplicando la misma aceleración pero en sentido contrario.
+4. El usuario podrá hacer que la nave frene aplicando la misma aceleración pero en sentido contrario.
 
 ![](./imagenes/Linea.jpg)
- 5. Tambien podra hacer una parada de emergencia (no se recomienda)
+5. Tambien podra hacer una parada de emergencia (no se recomienda)
 
 ![](./imagenes/Linea.jpg)
- 6. El usuario podrá ver la capacidad de carga máxima que tendrá su nave espacial (el número
-   de containers máximos que puede transportar.)
+6. El usuario podrá ver la capacidad de carga máxima que tendrá su nave espacial (el número
+  de containers máximos que puede transportar.)
 
 ![](./imagenes/Linea.jpg)
- 7. Tambien podra añadir containers a la bodega de la nave espacial, si no hay mas espacio el robot de la nave espacial
-   le avisara con un mensaje
+7. Tambien podra añadir containers a la bodega de la nave espacial, si no hay mas espacio el robot de la nave espacial
+  le avisara con un mensaje
 
 ![](./imagenes/Linea.jpg)
- 8.  Tambien podra quitar containers a la bodega de la nave espacial, si no hay mas containers el robot de la nave              espacial le avisara con un mensaje
+8. Tambien podra quitar containers a la bodega de la nave espacial, si no hay mas containers el robot de la nave              espacial le avisara con un mensaje
 
 ![](./imagenes/Linea.jpg)
- 9. El usuario tendrá una opción de salir de la nave espacial (mala idea)
+9. El usuario tendrá una opción de salir de la nave espacial (mala idea)
 
 ![](./imagenes/Universo.jpg)
 

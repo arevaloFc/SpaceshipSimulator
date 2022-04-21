@@ -1,4 +1,4 @@
-#Clase SpaceShip
+# Clase SpaceShip
 
 ![](../imagenes/Universo.jpg)
 En esta clase es donde se crea la nave espacial y se calcula con un metodo 

@@ -99,6 +99,11 @@ public class SpaceShip {
                 " y la posicion X es de " + calculoPosicion + " Cuadros a la derecha";
     }
 
+    public int brake(int aceleracion3){
+        int resta = resultadoVelocidad -= aceleracion3;
+        return resta;
+    }
+
     @Override
     public String toString() {
         return  " __" + "\n" +
