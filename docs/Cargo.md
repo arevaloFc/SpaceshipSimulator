@@ -10,7 +10,7 @@ cuantos espacios te quedan en la bodega
 para saber la cantidad de espacios de la bodega = carga maxima(10) -= (numero de container que el usuario agrega)
 
 unload() = Este metodo funciona para sacar un container en la bodega de la nave espacial tambien sirve para decirte
-cuantos container te quedan en la bodega
+cuantos espacios te quedan en la bodega
 
 ##### cantidadContainer = cantidadEspaciosBodega += numeroContainerRetirar;
 

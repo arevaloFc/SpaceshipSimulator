@@ -29,7 +29,7 @@ public class Cargo extends SpaceShip{
         if (cantidadContainer > 10) {
             return "\t\tNo hay mas containers en tu bodega";
         }
-        return "\t\tTe quedan : " + cantidadContainer + " containers en tu bodega";
+        return "\t\tTe quedan : " + cantidadContainer + " espacios en tu bodega";
     }
 
 }

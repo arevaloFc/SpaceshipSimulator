@@ -77,7 +77,7 @@ public class Main {
 
     /*---------------------Quitar containers a la bodega de la nave espacial--------------------------*/
     public static void BodegaNaveEspacialSacar(){
-        System.out.print("\tCuantos containers quieres sacar de la bodega de tu nave espacial:");
+        System.out.print("\tCuantos containers quieres sacar de la bodega de tu nave espacial: ");
         int meterContainer = scan.nextInt();
         scan.nextLine();
         System.out.println(naveEspacial.unload(meterContainer));
