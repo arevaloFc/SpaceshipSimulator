@@ -39,15 +39,24 @@ public class Main {
     /*------------------------------------Mostrar nave espacial------------------------------------*/
     public static void mostrarNaveEspacial() {
         System.out.println(naveEspacial);
+        System.out.println("\n" + "- - - - Opcion 2 Finalizada - - - -");
     }
 
     /*------------------------------------Acelerar nave espacial------------------------------------*/
     public static void AcelerarNaveEspacial() {
-        System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial ");
+        System.out.print("\tIntroduce el numero de aceleracion de tu nave espacial: ");
         int aceleracion = scan.nextInt();
         scan.nextLine();
         System.out.println(naveEspacial.SpeedUp(aceleracion));
         System.out.println("\n" + "- - - - Opcion 3 Finalizada - - - -");
+    }
+
+    public static void FrenarNaveEspacial() {
+        System.out.print("\tIntroduce el numero para frenar tu nave espacial: ");
+        int aceleracionFrenar = scan.nextInt();
+        scan.nextLine();
+        System.out.println("\tTu nave quedo en la posicion: " + naveEspacial.brake(aceleracionFrenar) );
+        System.out.println("\n" + "- - - - Opcion 4 Finalizada - - - -");
     }
 
     public static void main(String[] args) {
@@ -67,7 +76,7 @@ public class Main {
                     AcelerarNaveEspacial();
                     break;
                 case "4":
-                    System.out.println("Hola4");
+                    FrenarNaveEspacial();
                     break;
                 case "5":
                     System.out.println("Hola5");
