@@ -11,6 +11,7 @@
 
 ![](./imagenes/Linea.jpg)
 2. Cuando el usuario coloque su aceleración se podrá calcular la velocidad y la posicion actual de la nave.
+    * [Explicacion de la clase SpaceShip](./docs/SpaceShip.md)
 
 ![](./imagenes/Linea.jpg)
 3. El usuario también tendrá una opción donde muestra su nave espacial por medio de AsciiArt
@@ -25,6 +26,7 @@
 ![](./imagenes/Linea.jpg)
 6. El usuario podrá ver la capacidad de carga máxima que tendrá su nave espacial (el número
   de containers máximos que puede transportar.)
+   * [Explicacion de la clase Cargo](./docs/Cargo.md)
 
 ![](./imagenes/Linea.jpg)
 7. Tambien podra añadir containers a la bodega de la nave espacial, si no hay mas espacio el robot de la nave espacial
