@@ -72,14 +72,16 @@ public class Main {
         int meterContainer = scan.nextInt();
         scan.nextLine();
         System.out.println(naveEspacial.load(meterContainer));
+        System.out.println("\n" + "- - - - Opcion 6 Finalizada - - - -");
     }
 
     /*---------------------Quitar containers a la bodega de la nave espacial--------------------------*/
     public static void BodegaNaveEspacialSacar(){
-        System.out.println("Cuantos containers quieres sacar de la bodega de tu nave espacial:");
+        System.out.print("\tCuantos containers quieres sacar de la bodega de tu nave espacial:");
         int meterContainer = scan.nextInt();
         scan.nextLine();
         System.out.println(naveEspacial.unload(meterContainer));
+        System.out.println("\n" + "- - - - Opcion 7 Finalizada - - - -");
     }
 
     public static void main(String[] args) {
