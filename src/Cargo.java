@@ -13,4 +13,5 @@ public class Cargo extends SpaceShip{
     public void setCargaMaximaBodega(int cargaMaximaBodega) {
         this.cargaMaximaBodega = cargaMaximaBodega;
     }
+
 }

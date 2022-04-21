@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static Scanner scan = new Scanner(System.in);
-    public static SpaceShip naveEspacial;
+    public static Cargo naveEspacial;
 
     /*------------------------------------------------Menu--------------------------------------------*/
     public static String mostrarMenu() {
@@ -32,7 +32,7 @@ public class Main {
         System.out.print("\t" + "Introduce la aceleracion de tu nave espacial: ");
         int aceleracion = scan.nextInt();
         scan.nextLine();
-        naveEspacial = new SpaceShip(nombre,matriculaGalactica,aceleracion);
+        naveEspacial = new Cargo(nombre,matriculaGalactica,aceleracion);
         System.out.println("\n" + "- - - - Opcion 1 Finalizada - - - -");
     }
 
