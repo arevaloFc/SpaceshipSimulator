@@ -106,11 +106,14 @@ public class SpaceShip {
 
     @Override
     public String toString() {
-        return  " __" + "\n" +
+        return  "_____________________________________________________________________" + "\n" +
+                " __" + "\n" +
                 " | | " + "\n" +
                 "=[_|H)--._____" + "\n" +
                 "=[+--,-------'" + "\n" +
                 " [|_/'''  " + "\n" +
+                "_____________________________________________________________________" + "\n" +
+                "_____   ______________   _________   _________    _____  __  ________" + "\n" +
                 " Nombre de tu nave es: " + nombre + "\n" +
                 " Matricula Galactica de tu nave es: " + matriculaGalactica + "\n" +
                 " Aceleracion de tu nave es: " + aceleracion + "\n" +
@@ -119,7 +122,6 @@ public class SpaceShip {
                 " Coordenada X de tu nave es: " + coordenadaX + "\n" +
                 " Coordenada Y de tu nave es: " + coordenadaY + "\n" +
                 " Direccion X de tu nave es: " + direccionX + "\n" +
-                " Direccion Y de tu nave es: " + direccionY + "\n" +
-                '}';
+                " Direccion Y de tu nave es: " + direccionY;
     }
 }
