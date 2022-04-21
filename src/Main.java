@@ -70,6 +70,7 @@ public class Main {
     public static void BodegaNaveEspacialAgregar(){
         System.out.println("Cuantos containers quieres meter a la bodega de tu nave espacial");
         int meterContainer = scan.nextInt();
+        scan.nextLine();
         System.out.println(naveEspacial.load(meterContainer));
     }
 
@@ -96,7 +97,7 @@ public class Main {
                     PararNaveEspacial();
                     break;
                 case "6":
-                    BodegaNaveEspacial();
+                    BodegaNaveEspacialAgregar();
                     break;
                 case "7":
                     System.out.println("Hola7");
