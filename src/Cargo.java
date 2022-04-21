@@ -22,4 +22,12 @@ public class Cargo extends SpaceShip{
         return "\t\tTe quedan : " + cantidadEspacios + " Espacios en tu bodega";
     }
 
+    public String unload(int numeroMaximaCarga){
+        int cantidadEspacios = cargaMaximaBodega += numeroMaximaCarga;
+        if (cantidadEspacios > 10) {
+            return "No hay mas containers en tu bodega";
+        }
+        return "Te quedan : " + cantidadEspacios + " containers en tu bodega";
+    }
+
 }
